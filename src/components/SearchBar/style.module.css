@@ -12,13 +12,36 @@
     justify-content: space-between;
     align-items: center;
     width: 30%;
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .searchBarInput{
     width: 70%;
     outline: none;
     border: none;
+    height: 25px;
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clearIconContainerEN{
+    margin-right: 1em;
+    visibility: visible;
+    font-size: larger;
+}
+
+.clearIconContainerNA{
+    margin-right: 1em;
+    visibility: hidden;
+}
+
+.clearIconContainerEN:hover{
+    color: crimson;
+    cursor: pointer;
 }
 
 .searchIconContainer{
@@ -31,4 +54,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: larger;
+}
+
+.searchIconContainer:hover{
+    cursor: pointer;
 }
