@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+.title{
+    /* border: 2px solid red; */
+    margin-top: 20%;
+    text-align: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
 .main{
     display: flex;
     justify-content: center;
     /* border: 2px solid green; */
-    margin-top: 20%;
 }
 
 .searchBarContainer{
@@ -20,6 +28,7 @@
     outline: none;
     border: none;
     height: 25px;
+    font-family: sans-serif;
 }
 
 .iconContainer{
@@ -59,4 +68,16 @@
 
 .searchIconContainer:hover{
     cursor: pointer;
+}
+
+.resultContainer{
+    /* border: 2px solid red; */
+    margin-top: 2em;
+    text-align: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 30px;
+}
+
+.names{
+    margin-top: 0.5em;
 }
