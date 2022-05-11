@@ -5,7 +5,6 @@ from itsdangerous import json
 import numpy
 
 from nameList import nameListArr
-from alphabetDict import alphabetDict
 
 app = Flask(__name__)
 
